@@ -19,6 +19,10 @@ gem 'puma', '~> 3.11'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
+
+gem 'elasticsearch-model'
+
+gem 'elasticsearch-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 # ActiveModel::Serializer implementation and Rails hooks 
@@ -36,6 +40,16 @@ group :development, :test do
   gem 'faker'
   # Avoid repeating yourself, use pry-rails instead of copying the initializer to every rails project.
   gem 'pry-rails'
+
+  gem 'database_cleaner'
+  
+  gem 'rspec'
+  
+  gem 'elasticsearch-extensions'
+  
+  gem 'rspec-rails'
+
+  gem 'factory_bot_rails'
 end
 
 group :development do

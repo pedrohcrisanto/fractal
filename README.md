@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+API NoteBook
 
-Things you may want to cover:
+*Back-end Fractal Tecnologia*
 
-* Ruby version
+Para popular o banco de dados rodar o comando ~> rails dev:setup
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Passar como Header no Postman ~> Accept => aplication/json
